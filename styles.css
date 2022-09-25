@@ -1,8 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 
+}
+
+span {
+    cursor: pointer;
+
+
+}
+
+.span-op:hover {
+
+    opacity: 0.5;
 }
 
 .span1 {
@@ -19,6 +30,7 @@
 
     font-weight: bold;
     display: flex;
+    background-color: #EEF1FF;
 
 }
 
@@ -63,9 +75,7 @@ li {
     .nav-bar {
         display: flex;
         flex-direction: column;
-        background-color: black;
         align-items: center;
-        color: white;
     }
 
     .nav-first-section {
@@ -80,6 +90,7 @@ li {
         flex-direction: column;
         align-items: center;
         font-size: 0.7rem;
+        
     }
 
     li {
